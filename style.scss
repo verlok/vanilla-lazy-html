@@ -1,0 +1,19 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+body {
+	max-width: 320px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.lazy-dom {
+	min-height: 50vh;
+}
